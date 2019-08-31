@@ -1,0 +1,26 @@
+/pkg/
+/spec/*
+/tmp/
+.rspec_status
+.idea/
+./osee2unifiedRelease*
+Payload/osee2unifiedRelease.app/
+spec/osee2unifiedRelease-LinkMap*.txt
+spec/*.framework
+spec/*.app
+spec/assets/*
+.vscode/
+node_modules/
+package-lock.json
+
+# fastlane specific
+**/fastlane/report.xml
+
+# deliver temporary files
+**/fastlane/Preview.html
+
+# snapshot generated screenshots
+**/fastlane/screenshots
+
+# scan temporary files
+**/fastlane/test_output

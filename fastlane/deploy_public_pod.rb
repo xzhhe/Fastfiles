@@ -70,12 +70,6 @@ def commit_push_pod_push_tag(options, env)
 end
 
 def podspec_push_to_repo(options, env)
-  # ~/.cocoapods/repos  ls -l
-  # total 0
-  # drwxr-xr-x  7 xiongzenghui  staff  224  8 19 14:34 aliyun
-  # drwxr-xr-x  7 xiongzenghui  staff  224  8 18 12:11 master
-  # repo = 'master'
-
   pod_push(
     path: "#{PODSPEC_NAME}.podspec",
     # repo: repo,
