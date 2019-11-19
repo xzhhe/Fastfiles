@@ -1,4 +1,3 @@
-fastlane_version '2.105.2'
 default_platform(:ios)
 PODSPEC_NAME = ENV['podspepc_name']
 PODSPEC_NAME = 'XZHGCDDispatcher'.freeze if PODSPEC_NAME.nil?
