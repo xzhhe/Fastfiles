@@ -1,9 +1,12 @@
 ## 支持的功能
 
+### deploy pod
 
-
-| 实现功能 | Fastfile 文件           | 平台 |
-| -------- | ----------------------- | ---- |
-|          |                         |      |
-|          |                         |      |
+```ruby
+deploy_ios_pod(
+  podspec: '/path/to/xx.podspec',
+  branch: 'master',
+  version: '1.1.0'
+)
+```
 

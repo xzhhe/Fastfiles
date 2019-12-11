@@ -1,23 +1,19 @@
-# This file contains the fastlane.tools configuration
-# You can find the documentation at https://docs.fastlane.tools
-#
-# For a list of all available actions, check out
-#
-#     https://docs.fastlane.tools/actions
-#
-# For a list of all available plugins, check out
-#
-#     https://docs.fastlane.tools/plugins/available-plugins
-#
-
-# Uncomment the line if you want fastlane to automatically update itself
-# update_fastlane
-
 default_platform(:ios)
+Dir[File.expand_path('Fastfiles/*.rb', __dir__)].each { |f| import f }
 
-platform :ios do
-  desc "Description of what the lane does"
-  lane :custom_lane do
-    # add actions here: https://docs.fastlane.tools/actions
-  end
+lane :hello do
+  # UI.success "✅ Hello World!"
+  # haha
+  # ensure_git_status_clean_pwd(path: '/Users/xiongzenghui/collect_fastlane/toolbox')
+  # puts read_podspec(file_path: '/Users/xiongzenghui/Desktop/ZHCoreNetwork/ZHCoreNetwork.podspec')
+  # puts git_tag_exist(
+  #   repo: '/Users/xiongzenghui/Desktop/xzhworkspace',
+  #   tag: '1.0.0'
+  # )
+  # git_tag_add_push(
+  #   repo: '/Users/xiongzenghui/Desktop/xzhworkspace',
+  #   tag: '1.1.1',
+  #   branch: 'master',
+  #   commit_message: 'v1.1.1'
+  # )
 end

@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem 'cocoapods', '1.6.0'
+gem 'cocoapods'
 gem 'fastlane'
 gem 'simplecov'
 gem 'rspec_junit_formatter'
