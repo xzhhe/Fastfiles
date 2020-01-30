@@ -1,7 +1,7 @@
 module Fastlane
   module Actions
     module SharedValues
-      QRCODE_ACTION_QR_URL = :QRCODE_ACTION_QR_URL
+      QRCODE_ACTION_QR_URL            = :QRCODE_ACTION_QR_URL
       QRCODE_ACTION_ITMS_SERVICES_URL = :QRCODE_ACTION_ITMS_SERVICES_URL
     end
 
