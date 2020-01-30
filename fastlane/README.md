@@ -15,18 +15,22 @@ Install _fastlane_ using
 or alternatively using `brew cask install fastlane`
 
 # Available Actions
+
 ### deploy_ios_pod
+
 ```
 fastlane deploy_ios_pod
 ```
 
-### hello
+### rm derived data
+
 ```
-fastlane hello
+fastlane run rm_derived_data
 ```
 
 
-----
+
+---
 
 This README.md is auto-generated and will be re-generated every time [fastlane](https://fastlane.tools) is run.
 More information about fastlane can be found on [fastlane.tools](https://fastlane.tools).
