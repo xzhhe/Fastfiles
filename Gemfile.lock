@@ -1,3 +1,40 @@
+GIT
+  remote: https://github.com/xzhhe/fastlane-plugin-analyze_ios_ipa.git
+  revision: fd8a5638619cb188e82bb60f62d8ab9b22b325a8
+  branch: master
+  specs:
+    fastlane-plugin-analyze_ios_ipa (0.1.1)
+      CFPropertyList (>= 3.0.2, < 4.0)
+
+GIT
+  remote: https://github.com/xzhhe/fastlane-plugin-analyze_ios_linkmap.git
+  revision: 87ee5df5e691cbc59ff5e503e4e9bdaf3550eca8
+  branch: master
+  specs:
+    fastlane-plugin-analyze_ios_linkmap (0.1.2)
+
+GIT
+  remote: https://github.com/xzhhe/fastlane-plugin-git_clone.git
+  revision: 9dce63cb53c7882b3ad9db34fe752d7dc59c5eb1
+  branch: master
+  specs:
+    fastlane-plugin-git_clone (0.1.4)
+
+GIT
+  remote: https://github.com/xzhhe/fastlane-plugin-wechat.git
+  revision: 3bd5a773904bd63b221908866e57564c7fbba262
+  branch: master
+  specs:
+    fastlane-plugin-wechat (0.2.0)
+
+GIT
+  remote: https://github.com/xzhhe/ruby_extensions.git
+  revision: cd857a72193de0a6e61b99eedcf749f0a131a918
+  branch: master
+  specs:
+    ruby_extensions (0.1.0)
+      toml-rb (>= 2.0.1, < 3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -9,24 +46,20 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    algoliasearch (1.27.1)
-      httpclient (~> 2.8, >= 2.8.3)
-      json (>= 1.5.1)
-    ast (2.4.0)
     atomos (0.1.3)
     babosa (1.0.3)
     citrus (3.0.2)
     claide (1.0.3)
-    cocoapods (1.8.4)
+    cocoapods (1.7.5)
       activesupport (>= 4.0.2, < 5)
       claide (>= 1.0.2, < 2.0)
-      cocoapods-core (= 1.8.4)
+      cocoapods-core (= 1.7.5)
       cocoapods-deintegrate (>= 1.0.3, < 2.0)
       cocoapods-downloader (>= 1.2.2, < 2.0)
       cocoapods-plugins (>= 1.0.0, < 2.0)
       cocoapods-search (>= 1.0.0, < 2.0)
       cocoapods-stats (>= 1.0.0, < 2.0)
-      cocoapods-trunk (>= 1.4.0, < 2.0)
+      cocoapods-trunk (>= 1.3.1, < 2.0)
       cocoapods-try (>= 1.1.0, < 2.0)
       colored2 (~> 3.1)
       escape (~> 0.0.4)
@@ -35,11 +68,9 @@ GEM
       molinillo (~> 0.6.6)
       nap (~> 1.0)
       ruby-macho (~> 1.4)
-      xcodeproj (>= 1.11.1, < 2.0)
-    cocoapods-core (1.8.4)
+      xcodeproj (>= 1.10.0, < 2.0)
+    cocoapods-core (1.7.5)
       activesupport (>= 4.0.2, < 6)
-      algoliasearch (~> 1.0)
-      concurrent-ruby (~> 1.1)
       fuzzy_match (~> 2.0.4)
       nap (~> 1.0)
     cocoapods-deintegrate (1.0.4)
@@ -62,16 +93,13 @@ GEM
     declarative-option (0.1.0)
     diff-lcs (1.3)
     digest-crc (0.4.1)
-    docile (1.3.2)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.7.5)
-    down (5.0.0)
-      addressable (~> 2.5)
     emoji_regex (1.0.1)
     escape (0.0.4)
-    excon (0.70.0)
-    faraday (0.17.1)
+    excon (0.71.1)
+    faraday (0.17.3)
       multipart-post (>= 1.2, < 3)
     faraday-cookie_jar (0.0.6)
       faraday (>= 0.7.4)
@@ -79,7 +107,7 @@ GEM
     faraday_middleware (0.13.1)
       faraday (>= 0.7.4, < 1.0)
     fastimage (2.1.7)
-    fastlane (2.137.0)
+    fastlane (2.140.0)
       CFPropertyList (>= 2.3, < 4.0.0)
       addressable (>= 2.3, < 3.0.0)
       babosa (>= 1.0.2, < 2.0.0)
@@ -88,13 +116,13 @@ GEM
       commander-fastlane (>= 4.4.6, < 5.0.0)
       dotenv (>= 2.1.1, < 3.0.0)
       emoji_regex (>= 0.1, < 2.0)
-      excon (>= 0.45.0, < 1.0.0)
+      excon (>= 0.71.0, < 1.0.0)
       faraday (~> 0.17)
       faraday-cookie_jar (~> 0.0.6)
       faraday_middleware (~> 0.13.1)
       fastimage (>= 2.1.0, < 3.0.0)
       gh_inspector (>= 1.1.2, < 2.0.0)
-      google-api-client (>= 0.21.2, < 0.24.0)
+      google-api-client (>= 0.29.2, < 0.37.0)
       google-cloud-storage (>= 1.15.0, < 2.0.0)
       highline (>= 1.7.2, < 2.0.0)
       json (< 3.0.0)
@@ -113,12 +141,15 @@ GEM
       tty-screen (>= 0.6.3, < 1.0.0)
       tty-spinner (>= 0.8.0, < 1.0.0)
       word_wrap (~> 1.0.0)
-      xcodeproj (>= 1.8.1, < 2.0.0)
+      xcodeproj (>= 1.13.0, < 2.0.0)
       xcpretty (~> 0.3.0)
       xcpretty-travis-formatter (>= 0.0.3)
-    fastlane-plugin-altool (1.1.0)
     fastlane-plugin-analyze_ios_framework (0.1.4)
-    fastlane-plugin-git_clone (0.1.2)
+    fastlane-plugin-git_add_tag (0.1.2)
+    fastlane-plugin-gitlab_branch_diff (0.1.0)
+      gitlab (>= 4.10.0)
+    fastlane-plugin-gitlab_get_max_version_branch (0.1.3)
+      gitlab (>= 4.10.0)
     fastlane-plugin-gitlab_increate_line_notes (0.1.0)
       git_diff_parser (= 3.2.0)
       gitlab (~> 4.11.0)
@@ -129,13 +160,17 @@ GEM
       gitlab (= 4.11.0)
     fastlane-plugin-gitlab_merge_request_participants (0.1.0)
       gitlab (= 4.11.0)
-    fastlane-plugin-ipa_install_plist_generate (0.1.0)
+    fastlane-plugin-ipa_install_plist_generate (1.0.0)
+    fastlane-plugin-lizard (1.3.0)
+      bundler
+      fastlane
+      pry
     fastlane-plugin-make (0.1.0)
     fastlane-plugin-rm_derived_data (0.1.1)
     fastlane-plugin-source_env_from_file (0.1.0)
     fastlane-plugin-unzip (1.0.1)
     fastlane-plugin-upload_dsym (0.1.1)
-    fastlane-plugin-wechat (0.1.0)
+    formatador (0.2.5)
     fourflusher (2.3.1)
     fuzzy_match (2.0.4)
     gh_inspector (1.1.3)
@@ -143,49 +178,62 @@ GEM
     gitlab (4.11.0)
       httparty (~> 0.14, >= 0.14.0)
       terminal-table (~> 1.5, >= 1.5.1)
-    google-api-client (0.23.9)
+    google-api-client (0.36.4)
       addressable (~> 2.5, >= 2.5.1)
-      googleauth (>= 0.5, < 0.7.0)
+      googleauth (~> 0.9)
       httpclient (>= 2.8.1, < 3.0)
-      mime-types (~> 3.0)
+      mini_mime (~> 1.0)
       representable (~> 3.0)
       retriable (>= 2.0, < 4.0)
-      signet (~> 0.9)
-    google-cloud-core (1.4.1)
+      signet (~> 0.12)
+    google-cloud-core (1.5.0)
       google-cloud-env (~> 1.0)
+      google-cloud-errors (~> 1.0)
     google-cloud-env (1.3.0)
       faraday (~> 0.11)
-    google-cloud-storage (1.16.0)
+    google-cloud-errors (1.0.0)
+    google-cloud-storage (1.25.1)
+      addressable (~> 2.5)
       digest-crc (~> 0.4)
-      google-api-client (~> 0.23)
+      google-api-client (~> 0.33)
       google-cloud-core (~> 1.2)
-      googleauth (>= 0.6.2, < 0.10.0)
-    googleauth (0.6.7)
+      googleauth (~> 0.9)
+      mini_mime (~> 1.0)
+    googleauth (0.10.0)
       faraday (~> 0.12)
       jwt (>= 1.4, < 3.0)
       memoist (~> 0.16)
       multi_json (~> 1.11)
       os (>= 0.9, < 2.0)
-      signet (~> 0.7)
+      signet (~> 0.12)
     highline (1.7.10)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
-    httparty (0.17.1)
+    httparty (0.17.3)
       mime-types (~> 3.0)
       multi_xml (>= 0.5.2)
     httpclient (2.8.3)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
-    jaro_winkler (1.5.4)
-    json (2.2.0)
+    jenkins_api_client (1.5.3)
+      json (>= 1.0)
+      mixlib-shellout (>= 1.1.0)
+      nokogiri (~> 1.6)
+      socksify (>= 1.7.0)
+      terminal-table (>= 1.4.0)
+      thor (>= 0.16.0)
+    json (2.3.0)
     jwt (2.1.0)
     memoist (0.16.2)
     method_source (0.9.2)
-    mime-types (3.3)
+    mime-types (3.3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2019.1009)
-    mini_magick (4.9.5)
-    minitest (5.13.0)
+    mini_magick (4.10.1)
+    mini_mime (1.0.2)
+    mini_portile2 (2.4.0)
+    minitest (5.14.0)
+    mixlib-shellout (3.0.9)
     molinillo (0.6.6)
     multi_json (1.14.1)
     multi_xml (0.6.0)
@@ -194,16 +242,14 @@ GEM
     nap (1.1.0)
     naturally (2.2.0)
     netrc (0.11.0)
+    nokogiri (1.10.7)
+      mini_portile2 (~> 2.4.0)
     os (1.0.1)
-    parallel (1.19.1)
-    parser (2.6.5.0)
-      ast (~> 2.4.0)
     plist (3.5.0)
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
     public_suffix (2.0.5)
-    rainbow (3.0.0)
     rake (13.0.1)
     representable (3.0.4)
       declarative (< 0.1.0)
@@ -215,28 +261,18 @@ GEM
       rspec-core (~> 3.9.0)
       rspec-expectations (~> 3.9.0)
       rspec-mocks (~> 3.9.0)
-    rspec-core (3.9.0)
-      rspec-support (~> 3.9.0)
+    rspec-core (3.9.1)
+      rspec-support (~> 3.9.1)
     rspec-expectations (3.9.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
-    rspec-mocks (3.9.0)
+    rspec-mocks (3.9.1)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
-    rspec-support (3.9.0)
+    rspec-support (3.9.2)
     rspec_junit_formatter (0.4.1)
       rspec-core (>= 2, < 4, != 2.12.0)
-    rubocop (0.77.0)
-      jaro_winkler (~> 1.5.1)
-      parallel (~> 1.10)
-      parser (>= 2.6)
-      rainbow (>= 2.2.2, < 4.0)
-      ruby-progressbar (~> 1.7)
-      unicode-display_width (>= 1.4.0, < 1.7)
-    rubocop-require_tools (0.1.2)
-      rubocop (>= 0.49.1)
     ruby-macho (1.4.0)
-    ruby-progressbar (1.10.1)
     rubyzip (1.3.0)
     security (0.1.3)
     signet (0.12.0)
@@ -244,18 +280,15 @@ GEM
       faraday (~> 0.9)
       jwt (>= 1.5, < 3.0)
       multi_json (~> 1.10)
-    simctl (1.6.6)
+    simctl (1.6.7)
       CFPropertyList
       naturally
-    simplecov (0.17.1)
-      docile (~> 1.1)
-      json (>= 1.8, < 3)
-      simplecov-html (~> 0.10.0)
-    simplecov-html (0.10.2)
     slack-notifier (2.3.2)
+    socksify (1.7.1)
     terminal-notifier (2.0.0)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
+    thor (1.0.1)
     thread_safe (0.3.6)
     toml-rb (2.0.1)
       citrus (~> 3.0, > 3.0)
@@ -263,7 +296,7 @@ GEM
     tty-screen (0.7.0)
     tty-spinner (0.9.2)
       tty-cursor (~> 0.7)
-    tzinfo (1.2.5)
+    tzinfo (1.2.6)
       thread_safe (~> 0.1)
     uber (0.1.0)
     unf (0.1.4)
@@ -271,7 +304,7 @@ GEM
     unf_ext (0.0.7.6)
     unicode-display_width (1.6.0)
     word_wrap (1.0.0)
-    xcodeproj (1.13.0)
+    xcodeproj (1.14.0)
       CFPropertyList (>= 2.3.3, < 4.0)
       atomos (~> 0.1.3)
       claide (>= 1.0.2, < 2.0)
@@ -286,31 +319,40 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (= 2.1.2)
   cocoapods
-  down (>= 4.8.1)
+  dotenv (>= 2.7.5, < 3.0)
   fastlane
-  fastlane-plugin-altool
-  fastlane-plugin-analyze_ios_framework (= 0.1.4)
-  fastlane-plugin-git_clone (= 0.1.2)
-  fastlane-plugin-gitlab_increate_line_notes (= 0.1.0)
-  fastlane-plugin-gitlab_increate_swiftlint (= 0.1.0)
-  fastlane-plugin-gitlab_merge_request_add_note (= 0.1.0)
-  fastlane-plugin-gitlab_merge_request_participants (= 0.1.0)
-  fastlane-plugin-ipa_install_plist_generate (= 0.1.0)
-  fastlane-plugin-make (= 0.1.0)
-  fastlane-plugin-rm_derived_data (= 0.1.1)
-  fastlane-plugin-source_env_from_file (= 0.1.0)
-  fastlane-plugin-unzip (= 1.0.1)
-  fastlane-plugin-upload_dsym (= 0.1.1)
-  fastlane-plugin-wechat (= 0.1.0)
-  pry
+  fastlane-plugin-analyze_ios_framework (>= 0.1.4, < 1.0)
+  fastlane-plugin-analyze_ios_ipa!
+  fastlane-plugin-analyze_ios_linkmap!
+  fastlane-plugin-git_add_tag (>= 0.1.1, < 1.0)
+  fastlane-plugin-git_clone!
+  fastlane-plugin-gitlab_branch_diff (>= 0.1.0, < 1.0)
+  fastlane-plugin-gitlab_get_max_version_branch (>= 0.1.3, < 1.0)
+  fastlane-plugin-gitlab_increate_line_notes (>= 0.1.0, < 1.0)
+  fastlane-plugin-gitlab_increate_swiftlint (>= 0.1.0, < 1.0)
+  fastlane-plugin-gitlab_merge_request_add_note (>= 0.1.0, < 1.0)
+  fastlane-plugin-gitlab_merge_request_participants (>= 0.1.0, < 1.0)
+  fastlane-plugin-ipa_install_plist_generate (>= 1.0.0, < 2.0)
+  fastlane-plugin-lizard (>= 1.3.0, < 2.0)
+  fastlane-plugin-make (>= 0.1.0, < 1.0)
+  fastlane-plugin-rm_derived_data (>= 0.1.1, < 1.0)
+  fastlane-plugin-source_env_from_file (>= 0.1.0, < 1.0)
+  fastlane-plugin-unzip (>= 1.0.1, < 2.0)
+  fastlane-plugin-upload_dsym (>= 0.1.1, < 1.0)
+  fastlane-plugin-wechat!
+  formatador (>= 0.2.5, < 1.0)
+  gitlab (>= 4.11.0)
+  jenkins_api_client (>= 1.5.3, < 2.0)
   rake
   rspec
   rspec_junit_formatter
-  rubocop
-  rubocop-require_tools
-  simplecov
+  ruby_extensions!
   toml-rb
 
+RUBY VERSION
+   ruby 2.4.1p111
+
 BUNDLED WITH
-   2.0.2
+   2.1.2
